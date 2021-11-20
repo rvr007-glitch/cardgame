@@ -8,7 +8,7 @@ const Rowpoint = () => {
     const [points, setpoints] = useState();
     const [posts, setPosts] = useState([]);
     const { search } = useLocation();
-    const PF = "http://localhost:5000/images/"
+    const PF = "https://gamewarzone.herokuapp.com/images/"
     const colors = ["rgba(202, 12, 12, 0.5)", "rgba(12, 142, 202, 0.8)", "rgba(12, 202, 69, 0.5)"]
     const Rankcolors = ["red", "blue", "orange"]
 
