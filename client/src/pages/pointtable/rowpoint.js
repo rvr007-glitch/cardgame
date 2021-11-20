@@ -29,7 +29,7 @@ const Rowpoint = () => {
         return () => { ignore = true; }
     }, []);
     const fetchPosts = async () => {
-        const res = await axiosInstance.get("/api/users/rank")
+        const res = await axiosInstance.get("/users/rank")
         setPosts(res.data);
         console.log(res.data);
     };
